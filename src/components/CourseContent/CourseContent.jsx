@@ -23,7 +23,7 @@ export default function CourseContent() {
 
         <div className='content__box-body'>
           <input type='checkbox' className='checked' />{' '}
-          <label> How to hack a hamburger website </label>
+          <label> Green eyes are cool </label>
           <p>26 min</p>
         </div>
 
