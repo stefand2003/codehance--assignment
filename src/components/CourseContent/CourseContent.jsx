@@ -17,7 +17,7 @@ export default function CourseContent() {
 
         <div className='content__box-body'>
           <input type='checkbox' className='checked' />{' '}
-          <label>Meowing is a Must </label>
+          <label> Coding with Meow </label>
           <p>17 min</p>
         </div>
 
