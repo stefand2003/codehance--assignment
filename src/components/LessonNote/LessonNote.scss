@@ -1,0 +1,33 @@
+.note {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border: 0.5px grey solid;
+  border-radius: 10px;
+
+  textarea {
+    resize: none;
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    button {
+      width: 20%;
+      height: 40px;
+      background-color: white;
+      color: #83c7b4;
+      font-weight: bold;
+      border: none;
+      border: 2px #83c7b4 solid;
+      border-radius: 10px;
+    }
+
+    &--save {
+      background-color: #83c7b4 !important;
+      color: white !important;
+    }
+  }
+}

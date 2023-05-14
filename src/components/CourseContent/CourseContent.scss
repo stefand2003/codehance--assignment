@@ -1,0 +1,123 @@
+.content {
+  margin-top: 20px;
+  border: 1px gray solid;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+
+  &__header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #202020;
+  }
+
+  &__box {
+    margin-bottom: 20px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+
+    &-header {
+      margin-bottom: 20px;
+      border-bottom: 1px gray solid;
+      padding-bottom: 10px;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 5px;
+
+        :first-child {
+          font-size: 18px;
+          font-weight: bold;
+        }
+
+        :last-child {
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+
+      p {
+        margin: 0;
+        margin-top: 5px;
+        color: gray;
+      }
+    }
+
+    &-body {
+      margin-bottom: 20px;
+      input {
+        margin-right: 5px;
+        accent-color: #83c7b4;
+        color: white;
+      }
+
+      label {
+        font-weight: bold;
+        font-size: 18px;
+        color: #202020;
+      }
+
+      p {
+        margin: 0;
+        margin-left: 27px;
+        margin-top: 5px;
+        color: gray;
+      }
+    }
+  }
+
+  &__box-two {
+    margin-bottom: 20px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 5px;
+
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 5px;
+      color: gray;
+    }
+  }
+
+  &__box-three {
+    margin-bottom: 20px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin-bottom: 5px;
+
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 5px;
+      color: gray;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.lesson {
+  padding: 100px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: #f2f3f7;
+
+  &__right {
+    padding-top: 50px;
+  }
+}
