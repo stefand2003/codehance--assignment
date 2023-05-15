@@ -7,7 +7,7 @@ import Boring from '../../assets/reaction-feedback_svg/uninterested.svg';
 import Happy from '../../assets/reaction-feedback_svg/Smile.svg';
 
 import Arrow from '../../assets/feedback-buttons/download.svg';
-import Download from '../../assets/feedback-buttons/arrow.svg';
+import Download from '../../assets/feedback-buttons/arrow.png';
 
 export default function LessonPage() {
   return (
