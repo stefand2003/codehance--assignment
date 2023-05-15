@@ -3,6 +3,7 @@
   border-radius: 10px;
   padding: 15px;
   background-color: white;
+  width: fit-content;
 
   &__header {
     display: flex;
@@ -28,6 +29,14 @@
     display: flex;
     gap: 30px;
     margin-bottom: 20px;
+
+    button {
+      border-radius: 20px;
+      width: 90px;
+      padding: 8px;
+      background-color: white;
+      border: 1px lightgray solid;
+    }
   }
 
   &__summary {
