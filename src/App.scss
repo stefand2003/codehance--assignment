@@ -1,11 +1,17 @@
 .lesson {
-  padding: 100px;
-  padding-top: 10px;
-  display: flex;
-  justify-content: center;
-  background-color: #f2f3f7;
-
-  &__right {
-    padding-top: 50px;
+  @media screen and (max-width: 460px) {
+    width: 460px;
   }
+
+  // padding: 100px;
+  // padding-top: 10px;
+  // display: flex;
+  // justify-content: center;
+  // background-color: #f2f3f7;
+
+  // width: 100vw;
+
+  // &__right {
+  //   padding-top: 50px;
+  // }
 }

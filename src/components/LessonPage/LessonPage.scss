@@ -1,85 +1,174 @@
 .lessonpage {
-  padding: 50px;
+  @media screen and (max-width: 460px) {
+    padding: 10px;
 
-  img {
-    width: 100%;
-    border-radius: 20px;
-  }
-
-  .feedback {
-    display: flex;
-    justify-content: space-between;
-    &__title {
-      width: fit-content;
-
-      font-weight: bold;
-      margin: 0;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      font-size: 17px;
-    }
-
-    &__images {
-      display: flex;
-      gap: 25px;
-
-      img {
-        width: 20%;
-      }
-    }
-
-    &__buttons {
-      margin-top: 15px;
-
+    &__video {
+      max-width: 100%;
       display: flex;
       justify-content: center;
-      align-items: center;
-      gap: 15px;
+    }
 
-      &-download {
-        font-size: 16px;
+    .feedback {
+      display: flex;
+      justify-content: space-between;
 
-        a {
-          color: #83c7b4;
-          font-weight: bold;
+      &__title {
+        width: fit-content;
+
+        font-weight: bold;
+        margin: 0;
+        margin-top: 15px;
+        margin-bottom: 12px;
+        font-size: 17px;
+      }
+
+      &__images {
+        display: flex;
+        gap: 15px;
+
+        img {
+          width: 18%;
         }
+      }
+
+      &__buttons {
+        margin-top: 15px;
 
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 10px;
+        // align-items: center;
+        gap: 7px;
 
-        border: 2px #83c7b4 solid;
-        border-radius: 5px;
-        height: 40px;
-      }
+        &-download {
+          font-size: 13px;
 
-      &-complete {
-        font-size: 16px;
-        background-color: #83c7b4;
+          a {
+            color: #83c7b4;
+            font-weight: bold;
+          }
 
-        a {
-          color: white;
-          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+
+          border: 2px #83c7b4 solid;
+          border-radius: 5px;
+          height: 20px;
         }
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
+        &-complete {
+          font-size: 13px;
+          background-color: #83c7b4;
 
-        border: 2px #83c7b4 solid;
-        border-radius: 5px;
-        height: 40px;
-      }
+          a {
+            color: white;
+            font-weight: bold;
+          }
 
-      a {
-        text-decoration: none;
-      }
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
 
-      img {
-        width: 7%;
+          border: 2px #83c7b4 solid;
+          border-radius: 5px;
+          height: 20px;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        img {
+          width: 7%;
+        }
       }
     }
   }
 }
+
+// padding: 50px;
+
+// img {
+//   width: 100%;
+//   border-radius: 20px;
+// }
+
+// .feedback {
+//   display: flex;
+//   justify-content: space-between;
+//   &__title {
+//     width: fit-content;
+
+//     font-weight: bold;
+//     margin: 0;
+//     margin-top: 10px;
+//     margin-bottom: 10px;
+//     font-size: 17px;
+//   }
+
+//   &__images {
+//     display: flex;
+//     gap: 25px;
+
+//     img {
+//       width: 20%;
+//     }
+//   }
+
+//   &__buttons {
+//     margin-top: 15px;
+
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 15px;
+
+//     &-download {
+//       font-size: 16px;
+
+//       a {
+//         color: #83c7b4;
+//         font-weight: bold;
+//       }
+
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       gap: 10px;
+
+//       border: 2px #83c7b4 solid;
+//       border-radius: 5px;
+//       height: 40px;
+//     }
+
+//     &-complete {
+//       font-size: 16px;
+//       background-color: #83c7b4;
+
+//       a {
+//         color: white;
+//         font-weight: bold;
+//       }
+
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       gap: 10px;
+
+//       border: 2px #83c7b4 solid;
+//       border-radius: 5px;
+//       height: 40px;
+//     }
+
+//     a {
+//       text-decoration: none;
+//     }
+
+//     img {
+//       width: 7%;
+//     }
+//   }
+// }

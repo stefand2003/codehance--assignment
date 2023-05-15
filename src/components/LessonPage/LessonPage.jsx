@@ -12,7 +12,7 @@ import Download from '../../assets/feedback-buttons/arrow.png';
 export default function LessonPage() {
   return (
     <div className='lessonpage'>
-      <img src={Video} />
+      <img src={Video} className='lessonpage__video' />
 
       <section className='feedback'>
         <div>

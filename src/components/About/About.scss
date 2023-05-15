@@ -1,83 +1,170 @@
 .about {
-  border: 1px lightgray solid;
-  border-radius: 10px;
-  padding: 15px;
-  background-color: white;
-  width: fit-content;
+  @media screen and (max-width: 460px) {
+    border: 1px lightgray solid;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
 
-  &__header {
-    ul {
-      list-style: none;
-      padding: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+    &__header {
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 20px;
+        font-weight: bold;
+        li {
+          :last-child {
+            width: 16px;
+          }
+        }
+      }
+    }
+
+    &__info {
       display: flex;
-      justify-content: space-between;
+      gap: 55px;
+
+      div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      margin-bottom: 15px;
+    }
+
+    &__category {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 20px;
+
+      button {
+        border-radius: 20px;
+        width: 90px;
+        padding: 8px;
+        background-color: white;
+        border: 1px lightgray solid;
+      }
+    }
+
+    &__summary {
+      border-bottom: 1px lightgray solid;
+      padding-bottom: 20px;
+    }
+
+    &__teacherInfo {
+      display: flex;
       align-items: center;
 
-      font-size: 20px;
-      font-weight: bold;
-      li {
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        :first-child {
+          margin-bottom: 6px;
+          font-weight: bold;
+        }
+
         :last-child {
-          width: 16px;
+          font-style: italic;
+          color: gray;
         }
       }
     }
   }
 
-  &__info {
-    display: flex;
-    gap: 30px;
+  // border: 1px lightgray solid;
+  // border-radius: 10px;
+  // padding: 15px;
+  // background-color: white;
+  // width: fit-content;
 
-    div {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    margin-bottom: 20px;
-  }
+  // &__header {
+  //   ul {
+  //     list-style: none;
+  //     padding: 0;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
 
-  &__category {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 20px;
+  //     font-size: 20px;
+  //     font-weight: bold;
+  //     li {
+  //       :last-child {
+  //         width: 16px;
+  //       }
+  //     }
+  //   }
+  // }
 
-    button {
-      border-radius: 20px;
-      width: 90px;
-      padding: 8px;
-      background-color: white;
-      border: 1px lightgray solid;
-    }
-  }
+  // &__info {
+  //   display: flex;
+  //   gap: 30px;
 
-  &__summary {
-    border-bottom: 1px lightgray solid;
-    padding-bottom: 25px;
-  }
+  //   div {
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 10px;
+  //   }
+  //   margin-bottom: 20px;
+  // }
 
-  &__teacherInfo {
-    display: flex;
-    align-items: center;
+  // &__category {
+  //   display: flex;
+  //   gap: 30px;
+  //   margin-bottom: 20px;
 
-    img {
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-    }
+  //   button {
+  //     border-radius: 20px;
+  //     width: 90px;
+  //     padding: 8px;
+  //     background-color: white;
+  //     border: 1px lightgray solid;
+  //   }
+  // }
 
-    ul {
-      list-style: none;
-      padding: 0;
-      padding: 10px;
+  // &__summary {
+  //   border-bottom: 1px lightgray solid;
+  //   padding-bottom: 25px;
+  // }
 
-      :first-child {
-        margin-bottom: 6px;
-        font-weight: bold;
-      }
+  // &__teacherInfo {
+  //   display: flex;
+  //   align-items: center;
 
-      :last-child {
-        font-style: italic;
-        color: gray;
-      }
-    }
-  }
+  //   img {
+  //     width: 70px;
+  //     height: 70px;
+  //     border-radius: 50%;
+  //   }
+
+  //   ul {
+  //     list-style: none;
+  //     padding: 0;
+  //     padding: 10px;
+
+  //     :first-child {
+  //       margin-bottom: 6px;
+  //       font-weight: bold;
+  //     }
+
+  //     :last-child {
+  //       font-style: italic;
+  //       color: gray;
+  //     }
+  //   }
+  // }
 }
