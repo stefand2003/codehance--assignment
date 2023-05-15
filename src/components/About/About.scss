@@ -6,11 +6,21 @@
   width: fit-content;
 
   &__header {
-    display: flex;
-    justify-content: space-between;
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
 
-    font-size: 20px;
-    font-weight: bold;
+      font-size: 20px;
+      font-weight: bold;
+      li {
+        :last-child {
+          width: 16px;
+        }
+      }
+    }
   }
 
   &__info {

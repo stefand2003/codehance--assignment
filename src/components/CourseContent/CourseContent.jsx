@@ -1,5 +1,6 @@
 import React from 'react';
 import './CourseContent.scss';
+import Chevron from '../../assets/vector.png';
 
 export default function CourseContent() {
   return (
@@ -10,7 +11,10 @@ export default function CourseContent() {
         <div className='content__box-header'>
           <ul>
             <li>Part 1</li>
-            <li> ^ </li>
+            <li>
+              {' '}
+              <img src={Chevron} />{' '}
+            </li>
           </ul>
           <p>1/3 | 4 Min Left</p>
         </div>
@@ -37,7 +41,10 @@ export default function CourseContent() {
       <div className='content__box-two'>
         <ul>
           <li>Part 2</li>
-          <li> ^ </li>
+          <li>
+            {' '}
+            <img src={Chevron} />{' '}
+          </li>
         </ul>
         <p>2/3 | 15 Min Left</p>
       </div>
@@ -45,7 +52,10 @@ export default function CourseContent() {
       <div className='content__box-three'>
         <ul>
           <li>Part 3</li>
-          <li> ^ </li>
+          <li>
+            {' '}
+            <img src={Chevron} />{' '}
+          </li>
         </ul>
         <p>3/3 | 28 Min Left</p>
       </div>

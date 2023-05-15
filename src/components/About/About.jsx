@@ -2,13 +2,19 @@ import React from 'react';
 import './About.scss';
 import profilePic from '../../assets/yellow-hat.png';
 import detail from '../../assets/detail.png';
+import Chevron from '../../assets/vector.png';
 
 export default function About() {
   return (
     <div className='about'>
       <div className='about__header'>
-        <p>About this course</p>
-        <p> ^ </p>
+        <ul>
+          <li>About this course</li>
+          <li>
+            {' '}
+            <img src={Chevron} />{' '}
+          </li>
+        </ul>
       </div>
 
       <div className='about__info'>
