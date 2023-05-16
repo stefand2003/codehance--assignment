@@ -1,5 +1,5 @@
 .note {
-  @media screen and (max-width: 460px) {
+  @media screen and (max-width: 520px) {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
@@ -11,7 +11,7 @@
     border-radius: 10px;
 
     textarea {
-      width: 95%;
+      max-width: 95%;
       resize: none;
       border: 0.5px lightgray solid;
       border-radius: 10px;
@@ -40,7 +40,55 @@
       }
     }
   }
+
+  @media screen and (min-width: 520px) {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+
+    background-color: white;
+
+    padding: 3vw;
+    padding-top: 0px;
+    border: 0.5px lightgray solid;
+    border-radius: 10px;
+
+    p {
+      font-size: 2.3vw;
+    }
+
+    textarea {
+      width: 98%;
+      resize: none;
+      border: 0.5px lightgray solid;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    &__buttons {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+
+      button {
+        width: 20vw;
+        height: 5vw;
+        background-color: white;
+        color: #83c7b4;
+        font-weight: bold;
+        border: none;
+        border: 2px #83c7b4 solid;
+        border-radius: 10px;
+      }
+
+      &--save {
+        background-color: #83c7b4 !important;
+        color: white !important;
+      }
+    }
+  }
 }
+
 // background-color: white;
 // margin-left: 50px;
 // margin-right: 50px;
