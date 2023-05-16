@@ -127,10 +127,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 5vw;
+        gap: 2.8vw;
 
         &-download {
-          font-size: 2vw;
+          font-size: 1.8vw;
 
           a {
             color: #83c7b4;
@@ -143,13 +143,13 @@
           gap: 2vw;
 
           border: 2px #83c7b4 solid;
-          border-radius: 5vw;
+          border-radius: 2vw;
           padding: 10px;
-          height: 4vw;
+          height: 3.5vw;
         }
 
         &-complete {
-          font-size: 2vw;
+          font-size: 1.8vw;
           background-color: #83c7b4;
 
           a {
@@ -163,9 +163,9 @@
           gap: 2vw;
 
           border: 2px #83c7b4 solid;
-          border-radius: 5vw;
+          border-radius: 2vw;
           padding: 10px;
-          height: 4vw;
+          height: 3.5vw;
         }
 
         a {
@@ -236,8 +236,8 @@
           gap: 10px;
 
           border: 2px #83c7b4 solid;
-          border-radius: 5px;
-          height: 40px;
+          border-radius: 20px;
+          height: 25px;
         }
 
         &-complete {
@@ -255,8 +255,8 @@
           gap: 10px;
 
           border: 2px #83c7b4 solid;
-          border-radius: 5px;
-          height: 40px;
+          border-radius: 20px;
+          height: 25px;
         }
 
         a {

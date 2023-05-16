@@ -54,7 +54,7 @@
     border-radius: 10px;
 
     p {
-      font-size: 2.2vw;
+      font-size: 1.8vw;
     }
 
     textarea {
@@ -73,14 +73,15 @@
       padding-top: 10px;
 
       button {
-        width: 20vw;
-        height: 5vw;
+        width: 15vw;
+        height: 3.5vw;
         background-color: white;
         color: #83c7b4;
         font-weight: bold;
         border: none;
         border: 2px #83c7b4 solid;
         border-radius: 10px;
+        font-size: 1.5vw;
       }
 
       &--save {
@@ -125,7 +126,8 @@
         font-weight: bold;
         border: none;
         border: 2px #83c7b4 solid;
-        border-radius: 10px;
+        border-radius: 15px;
+        font-size: 16px;
       }
 
       &--save {
