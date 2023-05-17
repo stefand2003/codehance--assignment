@@ -12,7 +12,17 @@ import Download from '../../assets/feedback-buttons/arrow.png';
 export default function LessonPage() {
   return (
     <div className='lessonpage'>
-      <img src={Video} className='lessonpage__video' />
+      <div className='lessonpage__video'>
+        <iframe
+          className='iframe'
+          width='100%'
+          src='https://www.youtube.com/embed/iwIujeZpBAQ'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+          allowfullscreen
+        ></iframe>
+      </div>
 
       <section className='feedback'>
         <div>

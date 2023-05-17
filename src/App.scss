@@ -1,15 +1,11 @@
 .lesson {
-  @media screen and (max-width: 520px) {
-    background-color: #f2f3f7;
-  }
+  background-color: #f2f3f7;
 
   @media screen and (min-width: 520px) {
-    background-color: #f2f3f7;
     padding: 20px;
   }
 
   @media screen and (min-width: 1185px) and (max-width: 2000px) {
-    background-color: #f2f3f7;
     display: flex;
     justify-content: center;
     padding: 50px;
