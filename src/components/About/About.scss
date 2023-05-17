@@ -179,6 +179,10 @@
     background-color: white;
     width: fit-content;
 
+    p {
+      line-height: 23px;
+    }
+
     &__header {
       ul {
         list-style: none;
@@ -241,7 +245,6 @@
       ul {
         list-style: none;
         padding: 0;
-        padding: 10px;
 
         :first-child {
           margin-bottom: 6px;
@@ -250,6 +253,7 @@
 
         :last-child {
           color: gray;
+          font-size: 15px;
         }
       }
     }
