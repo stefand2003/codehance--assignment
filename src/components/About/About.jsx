@@ -2,7 +2,7 @@ import React from 'react';
 import './About.scss';
 import profilePic from '../../assets/yellow-hat.png';
 import detail from '../../assets/detail.png';
-import Chevron from '../../assets/vector.png';
+import Chevron from '../../assets/Vector.png';
 
 export default function About() {
   return (

@@ -1,6 +1,5 @@
 import React from 'react';
 import './LessonPage.scss';
-import Video from '../../assets/video-image.png';
 
 import Dislike from '../../assets/reaction-feedback_svg/sad.svg';
 import Boring from '../../assets/reaction-feedback_svg/uninterested.svg';
@@ -20,7 +19,7 @@ export default function LessonPage() {
           title='YouTube video player'
           frameborder='0'
           allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-          allowfullscreen
+          allowFullscreen
         ></iframe>
       </div>
 
