@@ -1,6 +1,6 @@
 import React from 'react';
 import './CourseContent.scss';
-import Chevron from '../../assets/vector.png';
+import Chevron from '../../assets/Vector.png';
 
 export default function CourseContent() {
   return (
