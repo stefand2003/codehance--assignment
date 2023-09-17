@@ -1,6 +1,6 @@
 import React from 'react';
 import './CourseContent.scss';
-import Chevron from '../../assets/Vector.png';
+import Chevron from '../../assets/Vector.svg';
 
 export default function CourseContent() {
   return (
@@ -13,7 +13,7 @@ export default function CourseContent() {
             <li>Part 1</li>
             <li>
               {' '}
-              <img src={Chevron} />{' '}
+              <img src={Chevron} className='chevron' />{' '}
             </li>
           </ul>
           <p>1/3 | 4 Min Left</p>
@@ -43,7 +43,7 @@ export default function CourseContent() {
           <li>Part 2</li>
           <li>
             {' '}
-            <img src={Chevron} />{' '}
+            <img src={Chevron} className='chevron' />{' '}
           </li>
         </ul>
         <p>2/3 | 15 Min Left</p>
@@ -54,7 +54,7 @@ export default function CourseContent() {
           <li>Part 3</li>
           <li>
             {' '}
-            <img src={Chevron} />{' '}
+            <img src={Chevron} className='chevron' />{' '}
           </li>
         </ul>
         <p>3/3 | 28 Min Left</p>
